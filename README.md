@@ -8,7 +8,7 @@ Steps to start server (Assuming you have Python already installed)
 2. Create virtual enviorment using
 `python -m venv {name_of_enviorment}`
 
-3. Initialize python enviornment using 
+3. Initialize python virtual enviornment using 
 `{name_of_enviorment}/Scripts/activate`
 
 4. Install required libraries.
