@@ -14,6 +14,6 @@ Steps to start server (Assuming you have Python already installed)
 4. Start django server
 `python manage.py runserver`
 
-5. Browser and open [link](localhost/subscribe): 
-[localhost/subscribe](localhost/subscribe)
+5. Browser and open [link](http://localhost/subscribe): 
+[localhost/subscribe](http://localhost/subscribe)
 
