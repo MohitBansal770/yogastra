@@ -8,12 +8,15 @@ Steps to start server (Assuming you have Python already installed)
 2. Create virtual enviorment using
 `python -m venv {name_of_enviorment}`
 
-3. Install required libraries.
+3. Initialize python enviornment using 
+`{name_of_enviorment}/Scripts/activate`
+
+4. Install required libraries.
 `pip install -r requirements.txt`
 
-4. Start django server
+5. Start django server
 `python manage.py runserver`
 
-5. Browser and open [link](http://localhost/subscribe): 
+6. Browser and open [link](http://localhost/subscribe): 
 [localhost/subscribe](http://localhost/subscribe)
 
