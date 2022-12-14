@@ -1,0 +1,10 @@
+from django.db import models
+
+
+class Profile(models.Model):
+    username=models.EmailField(max_length=254,unique=True,blank=False)
+    firstName=models.CharField(max_length=50,blank=False,verbose_name="First Name",editable=True)
+    lastname=models.CharField(max_length=50,blank=True,verbose_name="Last Name",editable=True)
+    age=models.IntegerField(blank=False,min=18,max=65)
+    
+
